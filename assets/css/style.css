@@ -1,3 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
 /* Main Header */
 #name {
     background: #4aaaa5;
@@ -56,7 +62,7 @@ a {
     height:500px;
     background:#fff;
     margin-top:25px;
-    padding:25px;
+    padding-top:25px;
 }
 
 section {
@@ -95,4 +101,62 @@ section {
     height:200px;
     margin-top:10px;
     margin-bottom: 10px;
+}
+
+/* #mainText {
+    float:right;
+    width:500px;
+    margin-right:150px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.divThumbNail {
+    width:180px;
+    height:180px;
+    float: left;
+    margin-right: 30px;
+    margin-left:20px;
+}
+
+.divThumbLabel {
+    width:180px;
+    background: #53d699;
+    height:50px;
+    position:relative;
+    bottom:90px;
+    opacity: 0.8;
+    
+}
+
+.divThumbText {
+    font-weight: bold;
+    font-size:14pt;
+    text-align: center;
+    padding-top:15px;
+}
+
+.imgPortfolio {
+    width:180px;
+    height:140px;
+}
+
+.divBioImage {
+   margin-left:20px;
+}
+
+.articleAbout {
+  
+    width:500px;
+    position: absolute;
+    bottom:230px;
+    right:290px;
+}
+
+#info {
+    padding:25px;
+    line-height: 1.5;
+}
+
+#hobbies {
+    padding-left:25px;
 }
