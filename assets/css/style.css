@@ -16,7 +16,7 @@
 }
 .mainHeader {
     width: 100%;
-    
+
     border-bottom:2px solid #bbb;
     padding-bottom: 2px;
 }
@@ -24,8 +24,8 @@
 nav {
     display: inline-block;
     font-size:14pt;
-   position: absolute;
-   right:100px;
+   position: relative;
+   left:530px;
     
 }
 
@@ -50,6 +50,8 @@ a {
     margin-top:25px;
     padding:25px;
     color: #4aaaa5;
+    
+    
 
 }
 .divInside {
@@ -148,7 +150,7 @@ section {
   
     width:500px;
     position: absolute;
-    bottom:230px;
+    bottom:205px;
     right:290px;
 }
 
@@ -159,4 +161,35 @@ section {
 
 #hobbies {
     padding-left:25px;
+}
+
+.divHeadBorder {
+   border-bottom:4px solid #4aaaa5;
+   width:100%;
+   padding-top:20px;
+}
+
+.lblKey {
+    color: #4aaaa5;
+    font-weight:bold;
+   
+  
+}
+
+.lblVal {
+    float:left;
+}
+
+.clearFix {
+    clear:both;
+}
+
+table tr td {
+    width:70px;
+}
+#mainText {
+    width:400px;
+    float:right;
+    margin-right:200px;
+    
 }
